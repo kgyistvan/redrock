@@ -151,6 +151,11 @@ Buttons Styles
   text-decoration: none;
 }
 
+#facebook_icon:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
 /* ==========================================================================
 Layout 
 ========================================================================== */
@@ -483,7 +488,10 @@ Portfolio Style
 #portfolio .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
+.badgebutton:hover, .closeproject:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
     /* ==========================================================================
 Work Process Style
 ========================================================================== */
@@ -608,7 +616,7 @@ Holding Style
 Testimonials Style
 ========================================================================== */
 #testimonials {
-  background-image: url("../img/testimonials/Testimonials2.jpg");
+  background-image: url("../img/testimonials/Testimonials.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;

@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <div id="owl-hero" class="owl-carousel owl-theme">
-                <div class="item" style="background-image: url(<?php echo base_url('img/sliders/Slide.jpg'); ?>)">
+                <div class="item" style="background-image: url(<?php echo base_url('img/sliders/Slide1.jpg'); ?>)">
                     <div class="caption">
                         <h1>We Are <span>Red Rock Tech</span></h1>
                         <a class="btn btn-transparent" id="popup-video1" href="video/redrock_video.mp4">Watch Our Video</a>
