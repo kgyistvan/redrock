@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-lg-3">
                         <span class="icon-documents"></span>
                         <h2 class="number timer">10000</h2>
-                        <h4>Issues Resolve</h4>
+                        <h4>Issues Resolved</h4>
                     </div>
                     <div class="col-lg-3">
                         <span class="icon-hourglass"></span>

@@ -40,7 +40,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             "name" => "fullName",
                             "id" => "fullName",
                             "class" => "form-control",
-                            "value" => "",
                             "required" => "required"
                         );
                         echo form_input($data); ?>
@@ -52,7 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             "name" => "email",
                             "id" => "email",
                             "class" => "form-control",
-                            "value" => "",
                             "type" => "email",
                             "required" => "required"
                         );
@@ -65,7 +63,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             "name" => "message",
                             "id" => "message_box",
                             "class" => "form-control",
-                            "value" => "",
                             "required" => "required"
                         );
                         echo form_textarea($data); ?>  
@@ -74,7 +71,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <?php $data = array(
                             "id" => "contact-btn",
                             "class" => "btn btn-light",
-                            "value" => ""
                         );
                         echo form_submit("contactSubmit", "Contact Us", $data); ?>
                         </div>

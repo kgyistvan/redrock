@@ -2,6 +2,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
     <body>
+        <!-- Preloader
+            ============================================= -->
+        <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+        
         <!-- Header Menu
             ============================================= -->
         <section class="main-header">
@@ -28,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="social-media hidden-sm hidden-xs">
                             <ul class="nav navbar-nav">
-                                <li><a href="https://www.facebook.com/redrocktech.ro/?fref=ts" target="_blank"><img id="facebook_icon" src="img/logo/facebook_logo.png"></a></li>
+                                <li><a href="https://www.facebook.com/redrocktech.ro/?fref=ts" target="_blank"><img id="facebook_icon_top" src="img/logo/facebook_logo.png" alt="Facebook logo"></a></li>
                             </ul>
                         </div>
                     </div>

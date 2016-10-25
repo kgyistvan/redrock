@@ -7,7 +7,6 @@ class Redrock extends CI_Controller {
     public function index() {
         $this->load->helper('url');
         $this->load->view('html_head');
-        $this->load->view('preloader');
         $this->load->view('header_menu');
         $this->load->view('hero_image');
         $this->load->view('welcome');

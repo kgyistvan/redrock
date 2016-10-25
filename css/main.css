@@ -151,10 +151,10 @@ Buttons Styles
   color: #0d0d0d;
   text-decoration: none;
 }
-#facebook_icon {
+#facebook_icon_top, #facebook_icon_bottom {
     height: 2em;
 }
-#facebook_icon:hover {
+#facebook_icon_top:hover, #facebook_icon_bottom:hover {
     opacity: 0.7;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
