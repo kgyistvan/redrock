@@ -7,6 +7,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container">
                 <h2>We Got Skills</h2>
                 <hr class="light-sep">
-                <img id="cloud" src="<?php echo base_url('img/cloud/redrockcloud.png'); ?>" class="img-responsive">
+                <img id="cloud" src="img/cloud/redrockcloud.png" class="img-responsive">
             </div>
         </section>

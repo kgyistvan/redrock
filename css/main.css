@@ -7,6 +7,7 @@ body {
   font-size: 16px;
   color: #0d0d0d;
   overflow-x: hidden;
+  padding: 0 !important;
 }
 
 .sep {
@@ -150,7 +151,9 @@ Buttons Styles
   color: #0d0d0d;
   text-decoration: none;
 }
-
+#facebook_icon {
+    height: 2em;
+}
 #facebook_icon:hover {
     opacity: 0.7;
     filter: alpha(opacity=100); /* For IE8 and earlier */
@@ -222,10 +225,6 @@ Navigation Style
 .navbar-brand {
     height: inherit;
     padding: inherit;
-}
-#facebook_icon {
-    height: 2em;
-    background-image: url("../img/logo/facebook_logo_hover.png");
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus,

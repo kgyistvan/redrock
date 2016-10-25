@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!-- Some Fune Facts
+<!-- Fun Facts
             ============================================= -->
         <section id="fun-facts">
             <div class="container">

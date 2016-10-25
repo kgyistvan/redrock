@@ -42,7 +42,18 @@ $(document).ready(function () {
 
     });
 
+    /***************** Video iFrame ******************/
 
+    $(document).ready(function () {
+            $('#popup-video1, #popup-video2, #popup-video3').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
     /***************** Full Width Slide ******************/
 
     var slideHeight = $(window).height();
@@ -83,6 +94,34 @@ $(document).ready(function () {
             });
             $(this).unbind('inview');
         }
+    });
+    /***************** Contact Us ******************/
+    $(document).ready(function(){
+        $('#googlemap').click(function () {
+            $('#googlemap iframe').css("pointer-events", "auto");
+        });
+        $(document).on("submit", "#contact-form", function(){
+
+            $(".response").hide();
+            $.ajax({
+               type: "POST",
+               url: "/redrock/index.php/redrock/send_email",
+               data: $(this).serialize(),
+               success: function (data){
+                   var response = $.parseJSON(data);
+                   if(response.error == "1"){
+                       var id = "response_error";
+                       var classr = "bg-danger";
+                   }else{
+                       var id = "response_success";
+                       var classr = "bg-success";
+                   }
+                   $("#"+id).html("<p class='"+classr+"'>"+response.message+"</p>").fadeIn();
+                   
+               }
+            });
+            return false;
+        });
     });
     /***************** Google Map ******************/
 

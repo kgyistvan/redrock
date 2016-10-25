@@ -1,13 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<!-- HTML Header
+            ============================================= -->
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
 
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <link rel="shortcut icon" type="image/ico" href="<?php echo base_url('img/favicon/favicon.ico'); ?>" />
+        <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
         <title>Red Rock Tech</title>
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,18 +19,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <meta name="author" content="">
 
         <!-- Bootstrap Css -->
-        <link href="<?php echo base_url('bootstrap-assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('bootstrap-assets/css/bootstrap.icon-large.min.css'); ?>" rel="stylesheet">
+        <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap-assets/css/bootstrap.icon-large.min.css" rel="stylesheet">
         <!-- Style -->
-        <link href="<?php echo base_url('plugins/owl-carousel/owl.carousel.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('plugins/owl-carousel/owl.theme.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('plugins/owl-carousel/owl.transitions.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('plugins/Lightbox/dist/css/lightbox.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('plugins/Icons/et-line-font/style.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('plugins/animate.css/animate.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('css/agency.min.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('css/main.css'); ?>" rel="stylesheet">
-        <link href="<?php echo base_url('css/magnific-popup.css'); ?>" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
+        <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet">
+        <link href="plugins/animate.css/animate.css" rel="stylesheet">
+        <link href="css/agency.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
 
         <!-- Icons Font -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

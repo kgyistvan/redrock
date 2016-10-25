@@ -20,6 +20,7 @@ class Redrock extends CI_Controller {
         $this->load->view('contact_us');
         $this->load->view('google_map');
         $this->load->view('footer');
+        $this->load->view('html_footer');
     }
     
     public function portfolio() {
